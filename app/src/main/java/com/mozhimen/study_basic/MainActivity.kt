@@ -14,4 +14,8 @@ class MainActivity : AppCompatActivity() {
     fun goDiceRoller(view: View) {
         startActivity(Intent(this, DiceRollerActivity::class.java))
     }
+
+    fun goLemonade(view: View) {
+        startActivity(Intent(this, LemonadeActivity::class.java))
+    }
 }

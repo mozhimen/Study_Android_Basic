@@ -2,4 +2,8 @@
     <string name="app_name">Study_Android_Basic</string>
     <string name="roll">roll</string>
     <string name="image">image</string>
+    <string name="click_select_lemon">点击以选择柠檬~</string>
+    <string name="click_squeeze_juice">点击以将柠檬榨汁~</string>
+    <string name="click_drink_juice">点击以饮用柠檬汁~</string>
+    <string name="click_restart">点击以重新开始~</string>
 </resources>

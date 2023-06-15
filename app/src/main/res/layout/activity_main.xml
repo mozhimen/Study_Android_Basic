@@ -7,6 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:padding="10dp"
         tools:context=".MainActivity">
 
@@ -17,5 +18,11 @@
             android:text="goDiceRoller"
             tools:ignore="HardcodedText" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goLemonade"
+            android:text="goLemonade"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 </layout>
