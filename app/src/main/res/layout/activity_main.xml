@@ -24,5 +24,12 @@
             android:onClick="goLemonade"
             android:text="goLemonade"
             tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goTipCalculate"
+            android:text="goTipCalculate"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 </layout>

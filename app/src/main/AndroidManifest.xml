@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Study_Android_Basic"
         tools:targetApi="31">
         <activity
+            android:name=".TipCalculateActivity"
+            android:exported="false" />
+        <activity
             android:name=".LemonadeActivity"
             android:exported="false" />
         <activity

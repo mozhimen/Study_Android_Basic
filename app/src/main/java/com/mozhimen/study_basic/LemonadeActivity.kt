@@ -6,6 +6,13 @@ import androidx.databinding.DataBindingUtil
 import com.google.android.material.snackbar.Snackbar
 import com.mozhimen.study_basic.databinding.ActivityLemonadeBinding
 
+/**
+ * @ClassName LemonadeActivity
+ * @Description TODO
+ * @Author mozhimen / Kolin Zhao
+ * @Date 2022/11/27 17:37
+ * @Version 1.0
+ */
 class LemonadeActivity : AppCompatActivity() {
     companion object {
         const val lemonSize = 3
@@ -98,7 +105,6 @@ class LemonadeActivity : AppCompatActivity() {
             }
         }
     }
-
 
     enum class LemonadeState {
         SELECT,

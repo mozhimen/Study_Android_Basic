@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
     fun goLemonade(view: View) {
         startActivity(Intent(this, LemonadeActivity::class.java))
     }
+
+    fun goTipCalculate(view: View) {
+        startActivity(Intent(this, TipCalculateActivity::class.java))
+    }
 }

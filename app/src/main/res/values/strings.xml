@@ -6,4 +6,13 @@
     <string name="click_squeeze_juice">点击以将柠檬榨汁~</string>
     <string name="click_drink_juice">点击以饮用柠檬汁~</string>
     <string name="click_restart">点击以重新开始~</string>
+    <string name="please_input_cost">please input cost</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="amazing_20">Amazing (20%)</string>
+    <string name="good_18">Good (18%)</string>
+    <string name="okay_15">Okay (15%)</string>
+    <string name="round_up_tip">Round Up Tip?</string>
+    <string name="calculate">Calculate</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="tip_amount_num">Tip Amount: %s</string>
 </resources>

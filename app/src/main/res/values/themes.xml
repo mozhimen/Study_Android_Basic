@@ -3,6 +3,13 @@
     <style name="Base.Theme.Study_Android_Basic" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Text input fields -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- Radio buttons -->
+        <item name="radioButtonStyle">@style/Widget.Study_Android_Basic.CompoundButton.RadioButton</item>
+        <!-- Switches -->
+        <item name="switchStyle">@style/Widget.Study_Android_Basic.CompoundButton.Switch</item>
     </style>
 
     <style name="Theme.Study_Android_Basic" parent="Base.Theme.Study_Android_Basic" />
