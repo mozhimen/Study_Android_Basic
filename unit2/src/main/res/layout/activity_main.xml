@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context="com.mozhimen.study_basic_unit2.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goDiceRoller"
+            android:text="goDiceRoller"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goLemonade"
+            android:text="goLemonade"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goTipCalculate"
+            android:text="goTipCalculate"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goRecyclerView"
+            android:text="goRecyclerView"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goRecyclerView2"
+            android:text="goRecyclerView2"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goDogglers"
+            android:text="goDogglers"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</layout>
