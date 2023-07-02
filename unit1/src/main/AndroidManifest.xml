@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Study_Android_Basic">
         <activity
+            android:name=".BirthdayCardActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
