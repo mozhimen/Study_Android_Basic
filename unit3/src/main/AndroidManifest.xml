@@ -17,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".words.WordsActivity" android:exported="false"/>
+        <activity android:name=".words.DetailActivity" android:exported="false"/>
+        <activity android:name=".dessert.DessertClickerActivity" android:exported="false"/>
     </application>
 
 </manifest>
