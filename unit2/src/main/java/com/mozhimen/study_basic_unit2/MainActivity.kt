@@ -14,9 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun goDiceRoller(view: View) {
-        startActivity(Intent(this, com.mozhimen.study_basic_unit1.DiceRollerActivity::class.java))
-    }
+
 
     fun goLemonade(view: View) {
         startActivity(Intent(this, LemonadeActivity::class.java))

@@ -24,9 +24,7 @@
         <activity
             android:name="com.mozhimen.study_basic_unit2.LemonadeActivity"
             android:exported="false" />
-        <activity
-            android:name="com.mozhimen.study_basic_unit2.com.mozhimen.study_basic_unit1.DiceRollerActivity"
-            android:exported="false" />
+
         <activity
             android:name="com.mozhimen.study_basic_unit2.MainActivity"
             android:exported="true">

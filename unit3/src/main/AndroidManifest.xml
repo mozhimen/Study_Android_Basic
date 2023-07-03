@@ -9,12 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Study_Android_Basic">
         <activity
-            android:name=".HappyBirthDayActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.mozhimen.study_basic_unit1.DiceRollerActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
