@@ -20,6 +20,7 @@
         <activity android:name=".words.WordsActivity" android:exported="false"/>
         <activity android:name=".words.DetailActivity" android:exported="false"/>
         <activity android:name=".dessert.DessertClickerActivity" android:exported="false"/>
+        <activity android:name=".navigation.NavigationWordsActivity" android:exported="false"/>
     </application>
 
 </manifest>
