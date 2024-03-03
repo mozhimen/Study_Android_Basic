@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goData"
+        android:onClick="goData"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goDemo"
+        android:onClick="goDemo"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goAlertDialog"
+        android:onClick="goAlertDialog"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goDialog"
+        android:onClick="goDialog"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goListView"
+        android:onClick="goListView"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goNet"
+        android:onClick="goNet"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goRv"
+        android:onClick="goRv"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goRvHorizontal"
+        android:onClick="goRvHorizontal"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goStaggered"
+        android:onClick="goStaggered"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goSavedInstance"
+        android:onClick="goSavedInstance"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:text="goWeb"
+        android:onClick="goWeb"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+</LinearLayout>

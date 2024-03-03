@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".demos.DemoActivity">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:onClick="goContacts"
+        android:text="goContacts" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:onClick="goFruit"
+        android:text="goFruit" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:onClick="goNews"
+        android:text="goNews" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:onClick="goNotice"
+        android:text="goNotice" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/StyleK_MaterialBtn"
+        android:onClick="goTalk"
+        android:text="goTalk" />
+</LinearLayout>

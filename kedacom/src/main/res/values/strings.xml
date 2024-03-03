@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Study_Android_Basic</string>
+
+    <string name="mainStartNormal">开始Normal页</string>
+    <string name="mainStartDialog">开始Dialog页</string>
+
+    <string name="second_label">这是第二个页面</string>
+    <string name="main_goto">前往下一个页面</string>
+    <string name="second_return">返回上一个界面</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Study_Android_Basic">
+        <activity
+            android:name=".demos.DemoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demos.fruit.FruitActivity"
+            android:exported="true"
+            android:label="Fruits" /> <!-- dataReturn -->
+        <activity
+            android:name=".data.DataFirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".data.DataSecondActivity"
+            android:exported="false" /> <!-- LifeCycle -->
+        <activity
+            android:name=".common.MainLifeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dialog.DialogLifeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".common.NormalLifeActivity"
+            android:exported="false" /> <!-- AlertDialog -->
+        <activity
+            android:name=".dialog.AlertDialogActivity"
+            android:exported="false" /> <!-- ListView -->
+        <activity
+            android:name=".lv.ListViewActivity"
+            android:exported="false" /> <!-- RecyclerView -->
+        <activity
+            android:name=".rv.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rv.RecyclerViewHorizontalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rv.StaggeredActivity"
+            android:exported="false" /> <!-- talk -->
+        <activity
+            android:name=".demos.talk.TalkActivity"
+            android:exported="false" /> <!-- permissions-read-contacts -->
+        <activity
+            android:name=".demos.contacts.ContactsActivity"
+            android:exported="false" /> <!-- notice -->
+        <activity
+            android:name=".demos.notice.NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".demos.notice.NoticeOtherActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".demos.notice.NoticeService"
+            android:enabled="true"
+            android:exported="false" /> <!-- webView -->
+        <activity
+            android:name=".web.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".net.HttpURLActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

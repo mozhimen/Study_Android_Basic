@@ -1,19 +1,57 @@
 pluginManagement {
     repositories {
-        google()
-        mavenCentral()
+        mavenLocal()
         gradlePluginPortal()
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/grails-core' }
+        maven { url 'https://gitee.com/liuchaoya/libcommon/raw/master/repository/' }
+        maven { url "https://repo.eclipse.org/content/repositories/paho-snapshots/" }
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://www.jitpack.io' }
+        mavenCentral()
+        google()
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+        mavenLocal()
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/grails-core' }
+        maven { url 'https://raw.githubusercontent.com/saki4510t/libcommon/master/repository/' }
+        maven { url 'https://gitee.com/liuchaoya/libcommon/raw/master/repository/' }
+        maven { url "https://repo.eclipse.org/content/repositories/paho-snapshots/" }
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://www.jitpack.io' }
         mavenCentral()
+        google()
     }
 }
 
+
 rootProject.name = "Study_Android_Basic"
-include ':unit2'
 include ':unit1'
+include ':unit2'
 include ':unit3'
+include ':kedacom'
+include ':material'
+//SwiftKit
+include ':SwiftKit'
+project(':SwiftKit').projectDir = new File("C:\\Users\\${System.getenv().get("USERNAME")}\\Documents\\GitHub\\SwiftKit")
+include ':SwiftKit:basick'
+include ':SwiftKit:uicorek'
+//AAdaptKit
+include ":AAdaptKit"
+project(':AAdaptKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AAdaptKit")
+include ':AAdaptKit:adaptk_dynamic_colors'
+
