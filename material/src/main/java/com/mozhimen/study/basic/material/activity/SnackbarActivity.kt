@@ -25,31 +25,24 @@ class SnackbarActivity : ToolbarActivity<ActivitySnackbarBinding>() {
 
         vb.button2.setOnClickListener {
             val mSnackbar = Snackbar.make(vb.constraintLayout, "已加入行程", Snackbar.LENGTH_INDEFINITE)
-            //设置Action并监听事件
-            mSnackbar.setAction("知道了") {
+            mSnackbar.setAction("知道了") {//设置Action并监听事件
                 "好的".showToast()
             }.show()
         }
 
         vb.button3.setOnClickListener {
             val mSnackbar = Snackbar.make(vb.constraintLayout, "已加入行程", Snackbar.LENGTH_INDEFINITE)
-            //设置Snackbar的背景颜色
-            mSnackbar.view.setBackgroundColor(ContextCompat.getColor(this@SnackbarActivity, R.color.colorPrimary))
-            //设置Action文字的背景颜色
-            mSnackbar.setActionTextColor(Color.WHITE)
-            //设置Action并监听事件
-            mSnackbar.setAction("知道了") {
+            mSnackbar.view.setBackgroundColor(ContextCompat.getColor(this@SnackbarActivity, R.color.colorPrimary))//设置Snackbar的背景颜色
+            mSnackbar.setActionTextColor(Color.WHITE)//设置Action文字的背景颜色
+            mSnackbar.setAction("知道了") {//设置Action并监听事件
                 "好的".showToast()
             }.show()
-            //添加回调
-            mSnackbar.addCallback(object : Snackbar.Callback() {
+            mSnackbar.addCallback(object : Snackbar.Callback() {//添加回调
                 override fun onDismissed(transientBottomBar: Snackbar, event: Int) {
-                    super.onDismissed(transientBottomBar, event)
                     Log.i(TAG, "onDismissed--->> " + "onDismissed")
                 }
 
                 override fun onShown(sb: Snackbar) {
-                    super.onShown(sb)
                     Log.i(TAG, "onShown--->> " + "onShown")
                 }
             })

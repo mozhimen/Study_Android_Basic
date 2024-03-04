@@ -1,4 +1,4 @@
-package com.mozhimen.study.basic.material.activity
+package com.mozhimen.study.basic.material
 
 import android.os.Bundle
 import android.view.Menu
@@ -7,7 +7,11 @@ import com.google.android.material.appbar.MaterialToolbar
 import com.mozhimen.basick.utilk.android.content.UtilKConfiguration
 import com.mozhimen.basick.utilk.android.content.startContext
 import com.mozhimen.basick.utilk.androidx.appcompat.UtilKAppCompatDelegate
-import com.mozhimen.study.basic.material.R
+import com.mozhimen.study.basic.material.activity.FloatingActionButtonActivity
+import com.mozhimen.study.basic.material.activity.SnackbarActivity
+import com.mozhimen.study.basic.material.activity.SwipeRefreshLayoutActivity
+import com.mozhimen.study.basic.material.activity.TabLayoutActivity
+import com.mozhimen.study.basic.material.activity.ToolbarActivity
 import com.mozhimen.study.basic.material.adapter.MainAdapter
 import com.mozhimen.study.basic.material.databinding.ActivityMainBinding
 
@@ -56,7 +60,7 @@ class MainActivity : ToolbarActivity<ActivityMainBinding>() {
                     0 -> startContext<SwipeRefreshLayoutActivity>()
                     1 -> startContext<FloatingActionButtonActivity>()
                     2 -> startContext<SnackbarActivity>()
-//                    3 -> startContext<TabLayoutActivity>()
+                    3 -> startContext<TabLayoutActivity>()
 //                    4 -> startContext<CardViewActivity>()
 //                    5 -> startContext<BottomNavigationActivity>()
 //                    6 -> startContext<CollapsingToolbarActivity>()

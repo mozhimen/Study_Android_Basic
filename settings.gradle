@@ -54,4 +54,8 @@ include ':SwiftKit:uicorek'
 include ":AAdaptKit"
 project(':AAdaptKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AAdaptKit")
 include ':AAdaptKit:adaptk_dynamic_colors'
+//AAnimKit_Lottie
+include ':AAnimKit_Lottie'
+project(':AAnimKit_Lottie').projectDir = new File("D:\\WorkSpace\\GitHub\\AAnimKit_Lottie")
+include ':AAnimKit_Lottie:animk_lottie'
 
