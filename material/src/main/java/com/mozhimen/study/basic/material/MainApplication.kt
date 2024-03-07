@@ -2,7 +2,7 @@ package com.mozhimen.study.basic.material
 
 import android.app.Application
 import com.mozhimen.adaptk.dynamic.colors.AdaptKDynamicColors
-import com.mozhimen.uicorek.optins.OTheme_ThemeMaterial3DayNoAction
+import com.mozhimen.xmlk.optins.OTheme_ThemeMaterial3DayNoAction
 
 class MainApplication: Application() {
 

@@ -38,7 +38,7 @@ android {
 dependencies {
 
     implementation project(':SwiftKit:basick')
-    implementation project(':SwiftKit:uicorek')
+    implementation project(':SwiftKit:xmlk')
     implementation project(':AAdaptKit:adaptk_dynamic_colors')
     implementation project(':AAnimKit_Lottie:animk_lottie')
 

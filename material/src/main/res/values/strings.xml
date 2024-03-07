@@ -29,4 +29,8 @@
 
     <string name="pull_to_refresh">下拉开始刷新</string>
 
+    <string name="title">Title</string>
+    <string name="sub_title">SubTitle</string>
+    <string name="go">Go</string>
+
 </resources>

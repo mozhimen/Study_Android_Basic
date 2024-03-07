@@ -22,6 +22,7 @@
         <activity android:name=".activity.FloatingActionButtonActivity" />
         <activity android:name=".activity.SnackbarActivity" />
         <activity android:name=".activity.TabLayoutActivity" />
+        <activity android:name=".activity.CardViewActivity" />
     </application>
 
 </manifest>
