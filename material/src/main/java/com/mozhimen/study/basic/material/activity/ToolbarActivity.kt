@@ -32,9 +32,11 @@ abstract class ToolbarActivity<VB : ViewBinding> : BaseActivityVB<VB>() {
         materialToolbar?.setOnMenuItemClickListener {
             when (it.itemId) {
                 com.mozhimen.study.basic.material.R.id.menu_author -> {
-                    UtilKSnackbar.showSnackbar(vb.root, "Snackbar", action = "好的", listener = {
-                        "祝你一夜暴富!".showToast()
-                    })
+                    UtilKSnackbar.showSnackbar(vb.root, "Snackbar", action = "好的",
+                        listener = {
+                            "祝你一夜暴富!".showToast()
+                        }
+                    )
                 }
 
                 com.mozhimen.study.basic.material.R.id.menu_share -> "分享".showToast()
