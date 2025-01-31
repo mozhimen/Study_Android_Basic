@@ -44,7 +44,6 @@ include ':unit1'
 include ':unit2'
 include ':unit3'
 include ':kedacom'
-include ':material'
 //SwiftKit
 include ':SwiftKit'
 project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
